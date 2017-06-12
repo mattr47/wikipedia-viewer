@@ -1,0 +1,30 @@
+body {
+  height: 100%;
+  width: 100%;
+  background: -moz-linear-gradient(325deg, #DEFCFF 0%, #FAF4D4 55%, #FAF4D4 56%); /* ff3.6+ */
+  background: -webkit-gradient (linear, left top, right bottom, color-stop(0%, #DEFCFF), color-stop(55%, #FAF4D4), color-stop(56%, #FAF4D4)); /* safari4+,chrome */
+  background: -webkit-linear-gradient(325deg, #DEFCFF 0%, #FAF4D4 55%, #FAF4D4 56%); /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(325deg, #DEFCFF 0%, #FAF4D4 55%, #FAF4D4 56%); /* opera 11.10+ */
+  background: -ms-linear-gradient(325deg, #DEFCFF 0%, #FAF4D4 55%, #FAF4D4 56%); /* ie10+ */
+  background: linear-gradient(125deg, #DEFCFF 0%, #FAF4D4 55%, #FAF4D4 56%); /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#DEFCFF', endColorstr='#FAF4D4',GradientType=1 ); /* ie6-9 */
+}
+
+body {
+  color: #333333;
+}
+
+.header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+#wikipedia-header {
+  padding-top: 15px;
+}
+
+#wikipedia-links {
+  padding-top: 15px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
